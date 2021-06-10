@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.test2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/to"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/to"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test2">
+        <activity android:name=".imageListview"></activity>
+        <activity android:name=".listView" />
+        <activity android:name=".practice" /> <!-- <activity -->
+        <!-- android:name=".ui.login.LoginActivity" -->
+        <!-- android:label="@string/title_activity_login" /> -->
+        <activity android:name=".Webpage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ratingBar" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
